@@ -1,0 +1,36 @@
+.Modal{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: .6;
+    z-index: 1000;
+}
+.box{
+    position: relative;
+    width: 70%;
+    height: 70%;
+    background: coral;
+    border-radius: 5px;
+
+}
+span{
+    position: absolute;
+    top: 2vh;
+    right: 2vh;
+    font-size: 4vh;
+    color: crimson;
+}
+.close{
+    background: none;
+    font-size: 4vh;
+    color: rgb(45, 91, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 4vh;
+    left: 4vh;
+}

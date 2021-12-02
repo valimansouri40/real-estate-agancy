@@ -1,0 +1,44 @@
+.tipical{
+   
+    width: 20%;
+    height: 60%;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column; 
+
+}
+.tipic{
+    margin-top: -1vh;
+}
+.li_prime{
+    font-size: 5vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:300; 
+    cursor: pointer;
+    margin-top: 2vh;
+    list-style: circle;
+}
+.li_second{
+    font-size: 3.3vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:300;
+    cursor: pointer;
+    margin-top: 1.4vh;
+}
+@media(max-width:1200px){
+    .tipic{
+        margin: 0 auto; 
+    }
+    .li_prime{
+        font-size: 4vh;
+    }
+    .li_second{
+        font-size: 2.5vh
+    }
+}
+@media(max-width:900px){
+    .tipical{
+        display: none
+    }
+}

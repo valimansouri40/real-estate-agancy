@@ -1,0 +1,135 @@
+.Messanger{
+    width: 100%;
+    height: 100vh;
+    background: gray;
+}
+.msg_box{
+    position: relative;
+    width: 100%;
+    height: 74%;
+    overflow-y:scroll;
+    
+    background: rgb(171, 180, 158);
+    display:flex;
+    flex-direction: column;
+    
+   
+    
+}
+/* .msg_box > div > div:last-child{
+    scroll-snap-align: end;
+} */
+
+.msg_box::-webkit-scrollbar {
+    height: 100%;
+    width: 20px;
+    
+  }
+
+  .msg_box::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgb(24, 22, 22);
+    
+
+  }
+
+.msg_box::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: rgb(239, 239, 247);
+    
+  }
+
+
+.msg_block_my{
+    width: 100%;
+    min-height: 5%;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 10vh;
+    margin: 5vh 0;
+}
+.msg_block_her{
+    width: 100%;
+    min-height: 5%;
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 10vh;
+    margin: 5vh 0;
+}
+.msg_my{
+    max-width: 60vh;
+    word-break: break-all;
+    padding: 1vh 2vh;
+    border-radius: 6px;
+    background: rgb(103, 177, 247);
+    display: inline;
+    font-size: 2.5vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.msg_her{
+    max-width: 60vh;
+    word-break: break-all;
+    padding: 1vh 2vh;
+    border-radius: 6px;
+    background: rgb(36, 117, 192);
+    display: inline;
+    font-size: 2.5vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.msg_header{
+    width: 100%;
+    height: 12%;
+    background: rgb(103, 177, 247);
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 12vh;
+}
+.msg_header h3{
+    font-size: 4vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.msg_header span{
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50%;
+    background: chartreuse;
+    margin-left: 3vh;
+}
+.msg_input{
+   
+    width: 60%;
+    height: 7vh;
+    background: rgb(92, 89, 92);
+    border: 1px solid rgb(19, 20, 20);
+    border-radius: 6px;
+    font-size: 3.5vh;
+    padding-left:3vh ;
+    color: white;
+}
+.msg_input::placeholder{
+    padding-left:3vh ;
+    color: rgba(216, 212, 198, 0.555);
+}
+.msg_send{
+    width: 5.5vh;
+    height:5.6vh;
+    margin-left:-7vh ;
+}
+.msg_send:active{
+    transform: translateX(1px);
+}
+.msg_input_box{
+    width: 100%;
+    height: 14%;
+    background: rgb(33, 34, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

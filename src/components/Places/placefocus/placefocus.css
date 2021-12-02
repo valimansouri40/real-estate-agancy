@@ -1,0 +1,261 @@
+.placefocus{
+    background: rgb(221, 212, 212);
+    position: relative;
+    z-index: 100;
+}
+.place_data{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-bottom: 2vh;
+    
+}
+.goback{
+    padding: 1.3vh 2vh;
+    position: absolute;
+    top: 5vh;
+    left: 5vh;
+    font-size: 2.6vh;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background: rgb(233, 100, 100);
+    box-shadow: 0 1vh 1.2vh #111;
+    transition: all .5s ease-out;
+}
+.goback:hover{
+    transform: translateY(1px)
+}
+.photo{
+    width: 100%;
+    
+    height: 50vh;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 .2vh .3vh #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.pragraf{
+    width: 70%;
+    min-height: 100%;
+    padding: 1vh 2vh;
+    word-break: break-all;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.pragraf:nth-child(1){
+    width: 20%;
+    word-break: keep-all;
+}
+.locationpst{
+    background: rgb(29, 187, 50);
+    border: none;
+    padding: 1vh 3vh;
+    font-size: 2.8vh;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: all 1s ease;
+}
+.locationpst:hover{
+    background:rgb(35, 160, 52) ;
+}
+.locationpst:active{
+    background:rgb(51, 182, 69) ;
+}
+.loc{
+    position: relative;
+    width: 80%;
+    height: 20vh;
+}
+.loc2{
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 80vh;
+    z-index: 200;
+}
+.spn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    font-size: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3vh;
+    height: 3vh;
+    background: rgb(128, 128, 128);
+}
+.sun{
+   
+    width: auto;
+    height: 99%;
+
+}
+.div{
+    margin-top: .5vh;
+    width: 90%;
+    min-height: 9vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px solid #111;
+    box-shadow: 0 .2vh .3vh #111;
+}
+.personal_data{
+    width: 13vh;
+    height: 13vh;
+    position: absolute;
+    top: 85%;
+    left: 5%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+.personal_data img{
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease;
+    transform-origin: left;
+}
+.personal_data img:hover{
+    transform: scale(1.2);
+}
+.span1{
+    position: absolute;
+    top: 20%;
+    left: 95%;
+    transform: translate(-50%,-50%);
+    font-size: 20vh;
+    color: rgb(131, 126, 126);
+    z-index: 100;
+    cursor: pointer;
+    transition: all 1s ease;
+
+}
+.span2{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    transform: translate(-50%,-50%);
+    font-size: 20vh;
+    color: rgb(131, 126, 126);
+    z-index: 100;
+    cursor: pointer;
+    transition: all 1s ease;
+
+}
+.span1:hover{
+    position: absolute;
+    top: 20%;
+    left: 95.5%;
+    transform: translate(-50%,-50%);
+}
+.span2:hover{
+    position: absolute;
+    top: 20%;
+    left: 4.5%;
+    transform: translate(-50%,-50%);
+}
+@media(max-width:900px){
+    .goback{
+        padding: 1vh 1.2vh;
+        font-size: 2.5vh;
+    }
+
+    .photo{
+        height: 40vh;
+    }
+    .personal_data{
+        left: 8%;
+    }
+    .span1{
+        left: 90%;
+        font-size: 15vh;
+    }
+    .span2{
+        left: 8%;
+        font-size: 15vh;
+    }
+    .span1:hover{
+        position: absolute;
+        top: 20%;
+        left: 90.5%;
+        transform: translate(-50%,-50%);
+    }
+    .span2:hover{
+        position: absolute;
+        top: 20%;
+        left: 8.5%;
+        transform: translate(-50%,-50%);
+    }
+}
+@media(max-width:570px){
+    .goback{
+        padding: .5vh .6vh;
+        font-size: 1.8vh;
+    }
+
+    .photo{
+        height: 30vh;
+    }
+    .personal_data{
+        left: 15%;
+        top: 93%;
+        width: 10vh;
+        height: 10vh;
+    }
+    .span1{
+        left: 90%;
+        font-size: 15vh;
+    }
+    .span2{
+        left: 8%;
+        font-size: 15vh;
+    }
+    .span1:hover{
+        position: absolute;
+        top: 20%;
+        left: 90.5%;
+        transform: translate(-50%,-50%);
+    }
+    .span2:hover{
+        position: absolute;
+        top: 20%;
+        left: 8.5%;
+        transform: translate(-50%,-50%);
+    }
+    .div{
+        height: 12vh;
+    }
+}
+
+@media(max-width:350px) {
+
+    .span1{
+        position: relative;
+        top: 40%;
+        left: 90%;
+        font-size: 15vh;
+    }
+    .span2{
+        position: relative;
+        top: 40%;
+        left: 8%;
+        font-size: 15vh;
+    }
+    
+}

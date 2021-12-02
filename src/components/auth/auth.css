@@ -1,0 +1,87 @@
+.auth{
+    background: linear-gradient(rgb(206, 209, 211),rgb(114, 111, 111));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 40%;
+    min-height: 60vh;
+    box-shadow: 0 2vh 2.3vh #111;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.auth_input{
+    width: 80%;
+    height: 6vh;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #111;
+    border-radius: 5px;
+    background:none;
+    font-size: 2.6vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: all .3s ease;
+}
+.auth_input::placeholder{
+    font-size: 2.6vh;
+}
+.auth_input:focus{
+    transform: translateY(2px);
+
+}
+.notvalid{
+    width: 80%;
+    height: 6vh;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(230, 63, 63);
+    border-radius: 5px;
+    background:red;
+    font-size: 2.6vh;
+    transition: all .3s ease;
+}
+.button{
+    background: rgb(11, 108, 187);
+    overflow: hidden;
+    border: 1px solid rgb(11, 108, 187);
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #d1c8c8;
+    font-weight: 300;
+    font-size: 4vh;
+    transition: all .6s ease;
+    
+    padding: 1vh 3vh;
+    text-decoration: none;
+}
+.button:hover{
+    background: rgb(19, 134, 228);
+    transform: translateX(2px);
+
+    color: #eee3e3;
+}
+.button:last-child{
+    padding: 1vh 2vh;
+    font-size: 2.5vh;
+}
+.button:disabled{
+    cursor: not-allowed;
+    background: #979191;
+    border: none;
+}
+
+.button:disabled:hover{
+    background: #979191;
+    transform: translateX(0);
+    
+}
+
+@media (max-width:500px){
+    .box{
+        width: 80%;
+    }
+}
