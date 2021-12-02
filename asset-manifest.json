@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/real-estate-agancy/static/css/main.c9a3788c.chunk.css",
+    "main.js": "/real-estate-agancy/static/js/main.22df4aaa.chunk.js",
+    "main.js.map": "/real-estate-agancy/static/js/main.22df4aaa.chunk.js.map",
+    "runtime-main.js": "/real-estate-agancy/static/js/runtime-main.263d2834.js",
+    "runtime-main.js.map": "/real-estate-agancy/static/js/runtime-main.263d2834.js.map",
+    "static/css/2.990c815e.chunk.css": "/real-estate-agancy/static/css/2.990c815e.chunk.css",
+    "static/js/2.700eeb23.chunk.js": "/real-estate-agancy/static/js/2.700eeb23.chunk.js",
+    "static/js/2.700eeb23.chunk.js.map": "/real-estate-agancy/static/js/2.700eeb23.chunk.js.map",
+    "static/css/3.22f3ac8b.chunk.css": "/real-estate-agancy/static/css/3.22f3ac8b.chunk.css",
+    "static/js/3.6db58ec7.chunk.js": "/real-estate-agancy/static/js/3.6db58ec7.chunk.js",
+    "static/js/3.6db58ec7.chunk.js.map": "/real-estate-agancy/static/js/3.6db58ec7.chunk.js.map",
+    "static/css/4.db44cc89.chunk.css": "/real-estate-agancy/static/css/4.db44cc89.chunk.css",
+    "static/js/4.1e4b67ff.chunk.js": "/real-estate-agancy/static/js/4.1e4b67ff.chunk.js",
+    "static/js/4.1e4b67ff.chunk.js.map": "/real-estate-agancy/static/js/4.1e4b67ff.chunk.js.map",
+    "static/css/5.7f827220.chunk.css": "/real-estate-agancy/static/css/5.7f827220.chunk.css",
+    "static/js/5.e2b2b705.chunk.js": "/real-estate-agancy/static/js/5.e2b2b705.chunk.js",
+    "static/js/5.e2b2b705.chunk.js.map": "/real-estate-agancy/static/js/5.e2b2b705.chunk.js.map",
+    "static/js/6.cd9c4554.chunk.js": "/real-estate-agancy/static/js/6.cd9c4554.chunk.js",
+    "static/js/6.cd9c4554.chunk.js.map": "/real-estate-agancy/static/js/6.cd9c4554.chunk.js.map",
+    "index.html": "/real-estate-agancy/index.html",
+    "static/css/2.990c815e.chunk.css.map": "/real-estate-agancy/static/css/2.990c815e.chunk.css.map",
+    "static/css/3.22f3ac8b.chunk.css.map": "/real-estate-agancy/static/css/3.22f3ac8b.chunk.css.map",
+    "static/css/4.db44cc89.chunk.css.map": "/real-estate-agancy/static/css/4.db44cc89.chunk.css.map",
+    "static/css/5.7f827220.chunk.css.map": "/real-estate-agancy/static/css/5.7f827220.chunk.css.map",
+    "static/css/main.c9a3788c.chunk.css.map": "/real-estate-agancy/static/css/main.c9a3788c.chunk.css.map",
+    "static/js/2.700eeb23.chunk.js.LICENSE.txt": "/real-estate-agancy/static/js/2.700eeb23.chunk.js.LICENSE.txt",
+    "static/media/16857264_XL.5b1c982a.jpg": "/real-estate-agancy/static/media/16857264_XL.5b1c982a.jpg",
+    "static/media/rainwinter.870d91f7.jpg": "/real-estate-agancy/static/media/rainwinter.870d91f7.jpg",
+    "static/media/sunny.421d179f.jpg": "/real-estate-agancy/static/media/sunny.421d179f.jpg",
+    "static/media/villa.jpg": "/real-estate-agancy/static/media/villa.379260f7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.263d2834.js",
+    "static/css/2.990c815e.chunk.css",
+    "static/js/2.700eeb23.chunk.js",
+    "static/css/main.c9a3788c.chunk.css",
+    "static/js/main.22df4aaa.chunk.js"
+  ]
+}
