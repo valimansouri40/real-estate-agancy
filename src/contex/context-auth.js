@@ -21,7 +21,7 @@ export default props=>{
    
 
     const getMiInit=()=>{
-        axios.get('https://vaskkfjad.herokuapp.com/api/v1/user/getme').then(res=>{
+        axios.get('/api/v1/user/getme').then(res=>{
              
                 settoken(res.data.data);
          }).catch(er=>console.log(er))
@@ -35,7 +35,7 @@ export default props=>{
             url = 'sineup';
         }
         
-       await axios.post(`https://vaskkfjad.herokuapp.com/api/v1/user/${url}`,authData).then(res=>{
+       await axios.post(`/api/v1/user/${url}`,authData).then(res=>{
             
             if(res.data.data){
                

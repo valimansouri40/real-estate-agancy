@@ -31,7 +31,7 @@ import axios from 'axios';
         setload(true);
         const api=srch? srch:'1234';
         
-       await axios.get(`https://vaskkfjad.herokuapp.com/api/v1/post/${api}?page=${page}&limit=8`).then(e=>{
+       await axios.get(`/api/v1/post/${api}?page=${page}&limit=8`).then(e=>{
 
         
             setpost(e.data.data)
@@ -51,13 +51,13 @@ import axios from 'axios';
     }
 
     const getMyPostInit=(id,page)=>{
-        axios.get(`https://vaskkfjad.herokuapp.com/api/v1/post/getallmyposts/${id}`).then(res=>{
+        axios.get(`/api/v1/post/getallmyposts/${id}`).then(res=>{
             
             setmypost(res.data.data)
         }).catch(er=>console.log(er))
     }
     const getoneInit=(id)=>{
-        axios.get(`https://vaskkfjad.herokuapp.com/api/v1/post/one/${id}`).then(res=>{
+        axios.get(`/api/v1/post/one/${id}`).then(res=>{
           
             setone(res.data.data)
         }).catch(er=>console.log(er))}

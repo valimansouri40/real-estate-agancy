@@ -20,7 +20,7 @@ export default props=>{
    const posthandller =(data)=>{
     
     seterror(true);
-    axios.post('https://vaskkfjad.herokuapp.com/api/v1/post',data)
+    axios.post('/api/v1/post',data)
     .then(res=>{
         
         if(res.data.data){
@@ -44,7 +44,7 @@ export default props=>{
    }
 
    const logouthandller=()=>{
-       axios.post('https://vaskkfjad.herokuapp.com/api/v1/user/logout').then(res=>{
+       axios.post('/api/v1/user/logout').then(res=>{
            setTimeout(()=>{
             window.location.reload()
            },[2000])
